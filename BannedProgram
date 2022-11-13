@@ -1,0 +1,4 @@
+@Echo Off
+echo MsgBox("You Are Banned. This script has corrupted itself") > Banned.vbs
+cscript Banned.vbs
+del Banned.vbs
